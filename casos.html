@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Casos — Klevio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/main.js" defer></script>
+</head>
+<body>
+<div class="page">
+  <div class="artboard">
+
+    <!-- Nav -->
+    <nav class="nav">
+        <a class="nav-logo" href="index.html">
+          <span class="logo-box">LOGO</span>
+          <span class="logo-text">Klevio</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a class="nav-link" href="nosotros.html">Nosotros</a>
+          <div class="nav-link-group">
+            <a class="nav-link" href="soluciones.html">Soluciones <span class="nav-plus">+</span></a>
+            <div class="nav-dropdown">
+              <div class="nav-dropdown-col">
+                <div class="eyebrow">Soluciones</div>
+                <a class="nav-dropdown-item" href="esencial.html">
+                  <h4>Esencial</h4>
+                  <p>Una base fiable sobre la que dirigir.</p>
+                </a>
+                <a class="nav-dropdown-item" href="control.html">
+                  <h4>Control</h4>
+                  <p>Pasas de cumplir a optimizar.</p>
+                </a>
+                <a class="nav-dropdown-item" href="direccion.html">
+                  <h4>Dirección</h4>
+                  <p>Un equipo financiero que piensa contigo.</p>
+                </a>
+              </div>
+              <div class="nav-dropdown-col nav-dropdown-col--featured">
+                <div class="eyebrow">Casos destacados</div>
+                <div class="nav-dropdown-cases">
+                  <a class="nav-case-card" href="caso-servicios.html">
+                    <div class="placeholder nav-case-img"><span>caso</span></div>
+                    <div class="nav-case-label">Caso destacado</div>
+                    <h4>+38% de margen en 6 meses</h4>
+                  </a>
+                  <a class="nav-case-card" href="caso-ecommerce.html">
+                    <div class="placeholder nav-case-img"><span>caso</span></div>
+                    <div class="nav-case-label">Caso destacado</div>
+                    <h4>Cierre mensual en 3 días</h4>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="nav-link" href="producto.html">Producto</a>
+          <a class="nav-link" href="como-trabajamos.html">Cómo trabajamos</a>
+          <a class="nav-link is-active" href="casos.html">Casos</a>
+          <a class="btn-nav" href="contacto.html">Hablemos</a>
+        </div>
+      </nav>
+
+    <!-- Hero -->
+    <section class="section section--no-border" style="padding-bottom:32px;">
+      <div class="eyebrow">Casos</div>
+      <h1 style="margin:0;font:700 48px/1.1 'Inter', sans-serif;color:var(--ink);letter-spacing:-.02em;max-width:760px;">Resultados de nuestros clientes</h1>
+      <p style="margin:24px 0 0;max-width:660px;font:400 18px/1.55 'Inter', sans-serif;color:var(--body-text);">Pymes de distintos sectores que hoy gestionan con datos. Estos son algunos de los resultados que hemos conseguido juntos.</p>
+    </section>
+
+    <!-- Casos (lista) -->
+    <section class="section section--alt">
+      <div class="grid grid-3 grid-divided">
+
+        <a class="divider-cell case-logo-cell" href="caso-servicios.html">
+          <div class="logo-ph" style="width:130px;height:60px;font-size:9px;">LOGO</div>
+        </a>
+
+        <a class="divider-cell case-logo-cell" href="caso-ecommerce.html">
+          <div class="logo-ph" style="width:130px;height:60px;font-size:9px;">LOGO</div>
+        </a>
+
+        <a class="divider-cell case-logo-cell" href="caso-industrial.html">
+          <div class="logo-ph" style="width:130px;height:60px;font-size:9px;">LOGO</div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Datos / logros -->
+    <section class="section">
+      <div style="max-width:560px;margin:0 auto 48px;text-align:center;">
+        <h2 style="margin:0;font:700 30px/1.2 'Inter', sans-serif;color:var(--ink);letter-spacing:-.01em;">Resultados que hablan por nosotros</h2>
+      </div>
+      <div class="grid grid-3 grid-divided">
+        <div class="divider-cell">
+          <p class="stat-number">+38%</p>
+          <p class="stat-desc" style="margin:8px 0 0;font-size:14px;color:var(--body-text);">de margen medio conseguido en 6 meses</p>
+        </div>
+        <div class="divider-cell">
+          <p class="stat-number">3 días</p>
+          <p class="stat-desc" style="margin:8px 0 0;font-size:14px;color:var(--body-text);">para cerrar el mes, con datos fiables</p>
+        </div>
+        <div class="divider-cell">
+          <p class="stat-number">1,2M€</p>
+          <p class="stat-desc" style="margin:8px 0 0;font-size:14px;color:var(--body-text);">de financiación conseguida para crecer</p>
+        </div>
+        <div class="divider-cell">
+          <p class="stat-number">40+</p>
+          <p class="stat-desc" style="margin:8px 0 0;font-size:14px;color:var(--body-text);">pymes acompañadas en su gestión financiera</p>
+        </div>
+        <div class="divider-cell">
+          <p class="stat-number">&lt;24h</p>
+          <p class="stat-desc" style="margin:8px 0 0;font-size:14px;color:var(--body-text);">tiempo medio de respuesta del equipo</p>
+        </div>
+        <div class="divider-cell">
+          <p class="stat-number">95%</p>
+          <p class="stat-desc" style="margin:8px 0 0;font-size:14px;color:var(--body-text);">de clientes que renuevan cada año</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="section section--cta">
+      <div style="max-width:640px;margin:0 auto;text-align:center;">
+        <h2 style="margin:0;font:700 38px/1.15 'Inter', sans-serif;color:var(--ink);letter-spacing:-.01em;">¿Preparado para gestionar con claridad?</h2>
+        <div style="margin-top:30px;display:flex;justify-content:center;">
+          <a class="btn btn-primary btn-large" href="contacto.html">Hablemos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+          <div class="footer-logo">Klevio</div>
+          <div class="footer-claim">Claridad financiera para pymes que quieren crecer.</div>
+        </div>
+        <div class="footer-cols">
+          <div class="footer-col">
+            <div class="footer-brand-logo">LOGO</div>
+            <div class="footer-brand-name">Klevio S.L.</div>
+            <div class="footer-brand-loc">Madrid · España</div>
+          </div>
+          <div class="footer-col">
+            <h4>Empresa</h4>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="soluciones.html">Soluciones</a>
+            <a href="casos.html">Casos</a>
+            <a href="contacto.html">Contacto</a>
+          </div>
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <a href="aviso-legal.html">Aviso legal</a>
+            <a href="privacidad.html">Privacidad</a>
+            <a href="cookies.html">Cookies</a>
+          </div>
+          <div class="newsletter">
+            <h4>Entérate de nuestras novedades</h4>
+            <form class="newsletter-row" data-newsletter-form novalidate>
+              <input class="newsletter-input" type="email" placeholder="Email" required>
+              <button class="newsletter-submit" type="submit">OK</button>
+            </form>
+          </div>
+        </div>
+      </footer>
+
+  </div>
+</div>
+</body>
+</html>
